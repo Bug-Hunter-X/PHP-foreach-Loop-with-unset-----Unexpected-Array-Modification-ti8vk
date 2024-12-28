@@ -1,0 +1,2 @@
+# PHP foreach Loop with unset() - Unexpected Array Modification
+This example demonstrates a common error in PHP when using `unset()` within a `foreach` loop on the same array.  Modifying the array during iteration leads to unexpected skipped elements and array manipulation issues. The solution illustrates safer alternatives for removing elements from an array during iteration.
